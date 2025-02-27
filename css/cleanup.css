@@ -1,1 +1,71 @@
 /* write your override styles here */
+/* General wall styling */
+#wall {
+    background: #222; /* Dark background for contrast */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Tag styles */
+  .tag-1 {
+    background: red;
+    width: 100px;
+    height: 50px;
+  }
+  
+  #tag-2 {
+    background: blue;
+    width: 120px;
+    height: 60px;
+  }
+  
+  #tag-3 {
+    background: green;
+    width: 140px;
+    height: 70px;
+  }
+  
+  /* Specific class styling */
+  .slick {
+    border: 5px solid yellow;
+  }
+  
+  .wicked {
+    box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.7);
+  }
+  
+  /* Parent container styles */
+  .parent {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Nested tags */
+  #tag-4 {
+    background: purple;
+    width: 80px;
+    height: 40px;
+  }
+  
+  #tag-5 {
+    background: cyan;
+    width: 90px;
+    height: 45px;
+  }
+  
+  #tag-6 {
+    background: orange;
+    width: 100px;
+    height: 50px;
+  }
+  
+  #tag-7 {
+    background: pink;
+    width: 110px;
+    height: 55px;
+  }
+  
